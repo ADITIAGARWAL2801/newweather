@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-image: url("../public/mountains.svg");
+  background-size: cover; /* Ensures the background image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-position: center; /* Centers the background image */
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 25, 41, 0.1); /* Color and transparency for the filter */
+  z-index: 0; /* Ensure the filter is behind the content */
+}
