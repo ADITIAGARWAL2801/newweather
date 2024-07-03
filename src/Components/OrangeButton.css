@@ -3,6 +3,9 @@
 .orange-button {
   text-align: center;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button-text {
@@ -27,4 +30,10 @@
   cursor: pointer;
   border-radius: 5px;
   margin-top: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 480px){
+
 }

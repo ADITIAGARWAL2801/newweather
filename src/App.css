@@ -7,9 +7,10 @@
 
 body {
   background-image: url("../public/mountains.svg");
-  background-size: cover; /* Ensures the background image covers the entire background */
-  background-repeat: no-repeat; /* Prevents the background image from repeating */
-  background-position: center; /* Centers the background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;/* Centers the background image */
 }
 
 body::before {

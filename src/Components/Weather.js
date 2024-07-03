@@ -4,7 +4,6 @@ import { FaSearch,FaWind } from "react-icons/fa";
 import {MdLocationOn} from 'react-icons/md';
 import {WiHumidity} from 'react-icons/wi';
 
-
 const Weather = () => {
 
     const [city, setCity] = useState('');
@@ -83,7 +82,6 @@ const Weather = () => {
                 </div>
             </div>
         }
-
     </div>
   )
 }
