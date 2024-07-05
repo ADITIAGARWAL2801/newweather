@@ -1,8 +1,11 @@
+*{
+  margin-top: 0;
+}
 .App {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 body {
@@ -10,7 +13,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;/* Centers the background image */
+  /* min-height: 100vh; */
+  font-size: 18px;
 }
 
 body::before {
@@ -22,4 +26,7 @@ body::before {
   height: 100%;
   background: rgba(12, 25, 41, 0.1); /* Color and transparency for the filter */
   z-index: 0; /* Ensure the filter is behind the content */
+}
+
+h1{
 }
